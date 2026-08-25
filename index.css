@@ -1,0 +1,126 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+
+  background-color: #e0e5ec;
+  background-image: url(./images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.keys{
+      box-shadow:
+    inset 4px 4px 8px #c2d3e4,
+    inset -4px -4px 8px #f8fdff;
+  background-color: #e1eefb;
+  border-radius: 10px;
+  /* padding: 0 5px; */
+/* gap: 15px; */
+}
+.calculater {
+  height: 550px;
+  width: 320px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 30px;
+  /* background-color:#e3e8ee; */
+  background-color: #e1eefb;
+  /* background-color:#cfe2f3; */
+  /* background-color:#e3e8ee; */
+  opacity: .8;
+
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.calculater #inputBox {
+  width: 90%;
+  /* background-color: #e7ecf2; */
+  height: 15%;
+  border-radius: 15px;
+  align-content: center;
+  margin-bottom: 20px;
+  padding-right: 6px;
+  /* border: 2px solid red; */
+  text-align: right;
+  font-size: 4.5em;
+overflow-x: hidden;
+  /* scroll-behavior: none; */
+  /* padding-bottom: 8px ; */
+  box-shadow:
+    inset 4px 4px 8px #c2d3e4,
+    inset -4px -4px 8px #f8fdff;
+}
+.calculater .row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  /* border: 2px solid red; */
+  margin: 4px;
+}
+
+button {
+  background-color: #e1eefb;
+
+  font-size: 1.7em;
+  font-weight: bold;
+  box-shadow: 6px 12px 12px #a3b1c6;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border: none;
+}
+
+button:active {
+  box-shadow:
+    inset 6px 6px 12px #a3b1c6,
+    inset -6px -6px 12px #ffffff;
+}
+
+.row5 .equal button:active {
+  box-shadow:
+    inset 6px 6px 12px #a3b1c6,
+    inset -6px -6px 12px #ffffff;
+}
+.calculater .row1 button:nth-child(1){
+    background-color: rgb(237, 170, 45);
+}
+.calculater .row1 button:nth-child(4){
+    background-color:red;
+}
+
+.calculater .row1 button {
+  height: 65px;
+  width: 70px;
+  border-radius: 12px;
+  color: or;
+}
+.calculater .row2 button {
+  height: 70px;
+  width: 70px;
+  border-radius: 12px;
+}
+.calculater .row3 button {
+  height: 70px;
+  width: 70px;
+  border-radius: 12px;
+}
+.calculater .row4 button {
+  height: 70px;
+  width: 70px;
+  border-radius: 12px;
+}
+.calculater .row5 button {
+  height: 70px;
+  width: 70px;
+  border-radius: 12px;
+}
+.calculater .row5 button:nth-child(3) {
+  width: 140px;
+  background: rgb(246, 165, 16);
+ 
+}
