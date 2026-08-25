@@ -34,8 +34,8 @@ html {
   /* background-color:#e3e8ee; */
   opacity: .8;
 
-  margin-left: 150px;
-  margin-top: 50px;
+  /* margin-left: 150px; */
+  margin-top: 20px;
 }
 .calculater #inputBox {
   width: 90%;
